@@ -1,0 +1,33 @@
+=========================2020-03-06 11:31:08 ========================= 
+dial tcp 127.0.0.1:3306: connect: connection refused
+goroutine 1 [running]:
+runtime/debug.Stack(0xc000390000, 0xc000372280, 0x36)
+	/usr/local/go/src/runtime/debug/stack.go:24 +0x9d
+github.com/xxjwxc/public/mylog.SaveError(0xc000372180, 0x34, 0x1605d55, 0x3)
+	/Users/xxj/work/path/pkg/mod/github.com/xxjwxc/public@v0.0.0-20200221114751-56810b3fcc29/mylog/mylog.go:100 +0x382
+github.com/xxjwxc/public/mylog.Error(0x16de140, 0xc000370050)
+	/Users/xxj/work/path/pkg/mod/github.com/xxjwxc/public@v0.0.0-20200221114751-56810b3fcc29/mylog/mylog.go:62 +0x208
+github.com/xxjwxc/public/mysqldb.(*MySqlDB).OnGetDBOrm(0xc000335ad8, 0xc000360000, 0x63, 0xc000335f90)
+	/Users/xxj/work/path/pkg/mod/github.com/xxjwxc/public@v0.0.0-20200221114751-56810b3fcc29/mysqldb/mysqldb.go:29 +0x212
+github.com/xxjwxc/public/mysqldb.OnInitDBOrm(...)
+	/Users/xxj/work/path/pkg/mod/github.com/xxjwxc/public@v0.0.0-20200221114751-56810b3fcc29/mysqldb/mysqldb.go:20
+github.com/xxjwxc/gormt/data/view/model/genmysql.(*mysqlModel).GenModel(0x1b776c0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/Users/xxj/work/workspace/github/xxjwxc/gormt/data/view/model/genmysql/genmysql.go:21 +0x8d
+github.com/xxjwxc/gormt/data/view/gtools.showCmd()
+	/Users/xxj/work/workspace/github/xxjwxc/gormt/data/view/gtools/gtools.go:31 +0x4b
+github.com/xxjwxc/gormt/data/view/gtools.Execute()
+	/Users/xxj/work/workspace/github/xxjwxc/gormt/data/view/gtools/gtools.go:21 +0x38
+github.com/xxjwxc/gormt/data/cmd.glob..func1(0x1b32100, 0x1b77900, 0x0, 0x0)
+	/Users/xxj/work/workspace/github/xxjwxc/gormt/data/cmd/cmd.go:30 +0x20
+github.com/spf13/cobra.(*Command).execute(0x1b32100, 0xc00001e030, 0x0, 0x0, 0x1b32100, 0xc00001e030)
+	/Users/xxj/work/path/pkg/mod/github.com/spf13/cobra@v0.0.5/command.go:830 +0x2aa
+github.com/spf13/cobra.(*Command).ExecuteC(0x1b32100, 0x0, 0x0, 0x0)
+	/Users/xxj/work/path/pkg/mod/github.com/spf13/cobra@v0.0.5/command.go:914 +0x2fb
+github.com/spf13/cobra.(*Command).Execute(...)
+	/Users/xxj/work/path/pkg/mod/github.com/spf13/cobra@v0.0.5/command.go:864
+github.com/xxjwxc/gormt/data/cmd.Execute()
+	/Users/xxj/work/workspace/github/xxjwxc/gormt/data/cmd/cmd.go:38 +0x2d
+main.main()
+	/Users/xxj/work/workspace/github/xxjwxc/gormt/main.go:6 +0x20
+
+=========================end=========================
