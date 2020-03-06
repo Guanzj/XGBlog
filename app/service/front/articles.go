@@ -8,7 +8,6 @@ import (
 	"XGBlog/app/protocol"
 	"XGBlog/app/util"
 	"context"
-	"fmt"
 	"reflect"
 
 	"github.com/olivere/elastic"
@@ -52,10 +51,10 @@ func (a *Articles) GetListFromMysql(page int, pageSize int, cateID int, fields [
 		resp.Msg = "系统错误"
 		return resp
 	}
-	fmt.Println(articles)
+	// fmt.Println(articles)
 	resp.Ret = 0
 	resp.Data = articles
-	fmt.Println(resp)
+	// fmt.Println(resp)
 	return resp
 }
 

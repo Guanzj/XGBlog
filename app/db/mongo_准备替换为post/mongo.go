@@ -1,19 +1,30 @@
+/*
+ * @Author: moonmist.guan
+ * @Date: 2020-03-05 16:15:20
+ * @LastEditTime: 2020-03-06 23:09:22
+ * @FilePath: /XGBlog/app/db/mongo_准备替换为post/mongo.go
+ * @Description:
+ */
+
 package mongo
 
 import (
+	"XGBlog/app/config"
+	"XGBlog/app/loger"
 	"context"
+	"time"
+
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
 	"go.mongodb.org/mongo-driver/mongo/readpref"
-	"myblog-api/app/config"
-	"myblog-api/app/loger"
-	"time"
 )
 
+// Mongo 结构体
 type Mongo struct {
 	conn *mongo.Client
 }
 
+// Default 默认方法
 func Default() *Mongo {
 	mg := &Mongo{}
 	ctx, _ := context.WithTimeout(context.Background(), time.Duration(config.Configs.MongoConnTimeout)*time.Second)
@@ -32,6 +43,7 @@ func Default() *Mongo {
 	return mg
 }
 
-func (this *Mongo) GetConn() *mongo.Client {
-	return this.conn
+// GetConn 获取数据库连接
+func (m *Mongo) GetConn() *mongo.Client {
+	return m.conn
 }
