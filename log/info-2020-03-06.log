@@ -121,3 +121,11 @@
 {"level":"info","msg":"Articles-Add-Params:{\"Title\":\"测试文章100\",\"CateID\":0,\"Description\":\"测试文章-description\",\"Keywords\":\"测试文章-keyword\",\"Contents\":\"测试文章-content\",\"ImgPath\":\"测试文章-imgpath\",\"PublishTime\":\"测试文章-发布时间\",\"ShowType\":0,\"Status\":0}","time":"2020-03-06T23:14:01+08:00"}
 {"level":"info","msg":"ctrller-admin-articles-Add-error1:json: cannot unmarshal string into Go struct field AddParams.CateID of type int","time":"2020-03-06T23:14:01+08:00"}
 {"level":"info","msg":"Articles-Add-Params:{\"Title\":\"测试文章100\",\"CateID\":1,\"Description\":\"测试文章-description\",\"Keywords\":\"测试文章-keyword\",\"Contents\":\"测试文章-content\",\"ImgPath\":\"测试文章-imgpath\",\"PublishTime\":\"2020-03-06 00:16:55\",\"ShowType\":1,\"Status\":1}","time":"2020-03-06T23:14:01+08:00"}
+{"level":"info","msg":"AddAccessLog-params:{\"ip\":\"127.0.0.1\",\"timestamp\":1583509405,\"path\":\"GET|/articles\",\"date\":\"2020-03-06\"}","time":"2020-03-06T23:43:25+08:00"}
+{"level":"info","msg":"AddAccessLog-params:{\"ip\":\"127.0.0.1\",\"timestamp\":1583509581,\"path\":\"GET|/articles\",\"date\":\"2020-03-06\"}","time":"2020-03-06T23:46:21+08:00"}
+{"level":"info","msg":"AddAccessLog-params:{\"ip\":\"127.0.0.1\",\"timestamp\":1583509642,\"path\":\"GET|/articles\",\"date\":\"2020-03-06\"}","time":"2020-03-06T23:47:22+08:00"}
+{"level":"info","msg":"AddAccessLog-params:{\"ip\":\"127.0.0.1\",\"timestamp\":1583509646,\"path\":\"GET|/articles\",\"date\":\"2020-03-06\"}","time":"2020-03-06T23:47:26+08:00"}
+{"level":"info","msg":"AddAccessLog-params:{\"ip\":\"127.0.0.1\",\"timestamp\":1583509647,\"path\":\"GET|/articles\",\"date\":\"2020-03-06\"}","time":"2020-03-06T23:47:27+08:00"}
+{"level":"info","msg":"AddAccessLog-params:{\"ip\":\"127.0.0.1\",\"timestamp\":1583510011,\"path\":\"GET|/articles\",\"date\":\"2020-03-06\"}","time":"2020-03-06T23:53:31+08:00"}
+{"level":"info","msg":"AddAccessLog-params:{\"ip\":\"127.0.0.1\",\"timestamp\":1583510012,\"path\":\"GET|/articles\",\"date\":\"2020-03-06\"}","time":"2020-03-06T23:53:32+08:00"}
+{"level":"info","msg":"AddAccessLog-params:{\"ip\":\"127.0.0.1\",\"timestamp\":1583510013,\"path\":\"GET|/articles\",\"date\":\"2020-03-06\"}","time":"2020-03-06T23:53:33+08:00"}

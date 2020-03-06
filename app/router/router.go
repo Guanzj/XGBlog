@@ -1,7 +1,7 @@
 /*
  * @Author: moonmist.guan
  * @Date: 2020-03-05 14:33:51
- * @LastEditTime: 2020-03-06 18:04:02
+ * @LastEditTime: 2020-03-06 23:38:02
  * @FilePath: /XGBlog/app/router/router.go
  * @Description:
  */
@@ -61,6 +61,7 @@ func (r *Router) setFront() {
 	r.engine.GET("/articles", articleFrontCtrl.GetList)
 	r.engine.GET("/categories", articleFrontCtrl.GetCategories)
 	r.engine.GET("/article/:id", articleFrontCtrl.Show)
+
 }
 
 // setAdmin 设置后台管理页面的路由--外部不可见

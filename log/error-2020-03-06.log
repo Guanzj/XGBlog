@@ -200,3 +200,12 @@
 {"level":"error","msg":"service-admin-articles-GetArticleDetail-error1:record not found","time":"2020-03-06T23:16:30+08:00"}
 {"level":"error","msg":"service-admin-articles-GetArticleDetail-error1:record not found","time":"2020-03-06T23:16:30+08:00"}
 {"level":"error","msg":"service-admin-articles-GetArticleDetail-error1:record not found","time":"2020-03-06T23:16:31+08:00"}
+{"level":"error","msg":"AddAccessLog-error:先凑活用的 接入日志记录的错误返回","time":"2020-03-06T23:43:25+08:00"}
+{"level":"error","msg":"mysql connect error:Error 1045: Access denied for user 'root'@'123.139.45.204' (using password: NO)mysql","time":"2020-03-06T23:43:25+08:00"}
+{"level":"error","msg":"AddAccessLog-error:先凑活用的 接入日志记录的错误返回","time":"2020-03-06T23:46:21+08:00"}
+{"level":"error","msg":"AddAccessLog-error:先凑活用的 接入日志记录的错误返回","time":"2020-03-06T23:47:22+08:00"}
+{"level":"error","msg":"AddAccessLog-error:先凑活用的 接入日志记录的错误返回","time":"2020-03-06T23:47:26+08:00"}
+{"level":"error","msg":"AddAccessLog-error:先凑活用的 接入日志记录的错误返回","time":"2020-03-06T23:47:27+08:00"}
+{"level":"error","msg":"AddAccessLog-error:先凑活用的 接入日志记录的错误返回","time":"2020-03-06T23:53:31+08:00"}
+{"level":"error","msg":"AddAccessLog-error:先凑活用的 接入日志记录的错误返回","time":"2020-03-06T23:53:32+08:00"}
+{"level":"error","msg":"AddAccessLog-error:先凑活用的 接入日志记录的错误返回","time":"2020-03-06T23:53:33+08:00"}
