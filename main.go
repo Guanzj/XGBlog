@@ -1,7 +1,7 @@
 /*
  * @Author: moonmist.guan
  * @Date: 2020-03-05 14:21:52
- * @LastEditTime: 2020-03-06 23:05:07
+ * @LastEditTime: 2020-03-08 01:03:40
  * @FilePath: /XGBlog/main.go
  * @Description:
  */
@@ -31,6 +31,9 @@ import (
 
 func init() {
 	// 获取当前项目所在路径
+	// file, err := ioutil.ReadFile("config.ini")
+	// fmt.Println(file, err)
+	// config.Default("config.ini")
 	appDir := util.GetAppDir()
 	fmt.Println(appDir + "/config.ini")
 	// 加载config文件

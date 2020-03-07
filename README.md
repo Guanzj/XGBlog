@@ -1,7 +1,7 @@
 <!--
  * @Author: moonmist.guan
  * @Date: 2020-03-06 20:36:00
- * @LastEditTime: 2020-03-06 21:03:52
+ * @LastEditTime: 2020-03-08 01:05:20
  * @FilePath: /XGBlog/README.md
  * @Description: 
  -->
@@ -61,6 +61,11 @@ $ go run main.go
 
 项目初始接口为localhost:8080，可参考API文档进行使用
 
+## 更新记录
+
+>2020.03.07
+>
+>* 使用SFTP实时同步本地与服务器代码，下一步考虑使用k8s进行部署，单纯使用build会出现配置文件无法读取的问题，所以暂不考虑
 
 ## Maintainers
 
