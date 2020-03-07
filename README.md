@@ -1,7 +1,7 @@
 <!--
  * @Author: moonmist.guan
  * @Date: 2020-03-06 20:36:00
- * @LastEditTime: 2020-03-08 01:05:20
+ * @LastEditTime: 2020-03-08 01:18:10
  * @FilePath: /XGBlog/README.md
  * @Description: 
  -->
@@ -65,7 +65,12 @@ $ go run main.go
 
 >2020.03.07
 >
->* 使用SFTP实时同步本地与服务器代码，下一步考虑使用k8s进行部署，单纯使用build会出现配置文件无法读取的问题，所以暂不考虑
+>- 使用SFTP实时同步本地与服务器代码，下一步考虑使用k8s进行部署，单纯使用build会出现配置文件无法读取的问题，所以暂不考虑
+
+## 待完成事项
+
+- [x] 完成本地和服务器端文件同步
+- [ ] 使用k8s进行服务器部署
 
 ## Maintainers
 

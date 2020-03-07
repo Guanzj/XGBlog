@@ -1,9 +1,9 @@
 /*
  * @Author: moonmist.guan
  * @Date: 2020-03-05 14:21:52
- * @LastEditTime: 2020-03-08 01:03:40
+ * @LastEditTime: 2020-03-08 01:07:14
  * @FilePath: /XGBlog/main.go
- * @Description:
+ * @Description:启动启动入口
  */
 
 package main
